@@ -1,0 +1,48 @@
+.wrap {
+    
+}
+
+.wrapInner {
+    height : 1080
+}
+
+.wrapHeader {
+    font-size : 40px;
+    font-style : bold;
+    color : #fff;
+    background-color: #000;
+    padding : 40px;
+}
+
+.wrapContents{
+    border : 1px;
+}
+
+.wrapInnerNav{
+    text-align : center;
+}
+
+.navButton {
+    margin : 40px 40px 0px 14px;
+    border : 1px, #d1d1d1;
+}
+
+.elements {
+    font-size : 20px;
+    color : #000;
+
+}
+
+.footerWrap {
+    text-align: center;
+}
+
+.footerInfOne{
+    font-size :12px;
+    color : #999;
+}
+
+.footerInfTwo{
+    font-size : 12px;
+    color : #000;
+}
