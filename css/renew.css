@@ -1,0 +1,21 @@
+.wrap {
+    
+}
+#headerBGColor {
+    background-color: #000;
+    height : 120px;
+}
+
+/*footer제외 모든 엘리먼트 소지*/
+.wrapInner {
+    text-align: center; /*가운데 정렬*/
+    border-bottom : 1px solid #d1d1d1; /*footer와의 경계선*/
+}
+
+.headerText {
+    color : #fff;
+    font-weight: bold;
+    font-size : 40px;
+    padding : 40px;
+    
+}

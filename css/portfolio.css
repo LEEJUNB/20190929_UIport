@@ -44,9 +44,11 @@
 .composition {
     font-size : 20px;
     color : #000;
+    padding : 10px;
+    border-bottom : solid #000;
 }
 
-.table{
+.table {
     background-color: #f7f7f7;
     border : 1px #d1d1d1;
     margin : 30
