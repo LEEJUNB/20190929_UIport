@@ -12,7 +12,10 @@
         <div class="wrapInner"> <!--중앙정렬되고 1080너비유지-->>
             <!--헤더포함해서 div에 넣어서 기존간격 오른쪽 간격 40맞추기-->
             <header class="headerText"> 포트폴리오 </header><!--배경컬러는 투명으로-->
-            <nav> 
+            <nav class="wrapElement">
+                <!-- <p class="tableElement" id="mouseHover"><a href="">테이블 요소</a></p>
+                <p class="formElement" id="mouseHover"><a href="">폼 요소</a></p>
+                <p class="listElement" id="mouseHover"><a href="">리스트 요소</a></p> -->
                 <input class="tableElement" id="mouseHover" type="button" value="테이블 요소" href="">
                 <input class="formElement" id="mouseHover" type="button" value="폼 요소" href="">
                 <input class="listElement" id="mouseHover" type="button" value="리스트 요소" href="">
@@ -20,18 +23,23 @@
 
             <p class="element"> 구성 요소 </p>
             
-            <table class="table">
-                <tr>
-                    <th class="tableTitle">테이블 요소</th>
-                </tr>
-                <tr >
-                    <td class="tableContents">콘텐츠 영역</td>
-                </tr>
-            </table>
+            <div class="elementTable">
+                <p class="elementTitle"> 테이블 요소 </p>
+                <p class="elementContents"> 컨텐츠 영역 </p>
+
+                <p class="elementTitle"> 폼 요소 </p>
+                <p class="elementContents"> 컨텐츠 영역 </p>
+
+                <p class="elementTitle"> 리스트 요소 </p>
+                <p class="elementContents"> 컨텐츠 영역 </p>
+            </div>
 
 
         </div>
-        <footer class="footerLine"></footer>
+        <footer class="footerLine">
+            <p class="footerAddr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
+            <p class="footerRight">Copyright © Hong Gil Dong. All Rights Reserved.</p>
+        </footer>
     </div>
 </body>
 </html>

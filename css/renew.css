@@ -1,7 +1,6 @@
 .wrap {
     background-color: #000;
     height : 120px;
-    width : auto;
     text-align: center;
 }
 
@@ -11,12 +10,13 @@
     display : inline-block;
 }
 
-.headerText {
+header.headerText {
     text-align: left;
     color : #fff;
     font-weight: bold;
     font-size : 40px;
-    padding : 40px;
+    height : 100%;
+    margin : 0 40px 40px;
 }
 
 #mouseHover:hover{
@@ -24,25 +24,29 @@
     font-weight: bold;
 }
 
+nav.wrapElement{
+    margin :  0 40px;
+}
+
 .tableElement {
-    border : 1px #d1d1d1;
-    width : 320px;
+    border : 1px solid #d1d1d1;
     height : 33px;
-    margin : 40px 14px 0 40px;
+    margin : 40px 14px 40px 0;
+    width: 32%
 }
 
 .formElement {
-    border : 1px #d1d1d1;
-    width : 320px;
+    border : 1px solid #d1d1d1;
     height : 33px;
-    margin : 40px 14px 0 0;
+    margin : 40px 14px 40px 0;
+    width: 32%
 }
 
 .listElement{
-    border : 1px #d1d1d1;
-    width : 320px;
+    border : 1px solid #d1d1d1;
     height : 33px;
-    margin : 40px 40px 0 0;
+    margin : 40px 0;
+    width: 32%;
 }
 
 .element {
@@ -50,16 +54,36 @@
     color : #000;
     font-weight: bold;
     text-align: left;
-    margin : 40px 0 0 40px;
+    margin : 40px 40px 0 40px;
+    
     border-bottom : 1px solid;
     border-color : #454545;
 }
 
-table {
-    margin : 30px 30px 0 40px;
+.elementTable{
+    
+    margin : 40px 0 0 0px;
 }
 
-.tableTitle{
+.elementTitle {
+
+    width : 1000px;
+    text-align: left ; 
+
+    background-color : #f7f7f7;
+    border : 1px solid;
+    border-color : #d1d1d1;
+
+    font-size : 16px;
+    color : #333;
+    font-weight : bold;
+
+    padding : 20px 0 20px 15px;
+    margin : 40px 40px 0;
+
+}
+
+.elementContents{
     width : 1000px;
     text-align: left;
 
@@ -67,28 +91,26 @@ table {
     border : 1px solid;
     border-color : #d1d1d1;
     
-    font-size : 16px;
-    color : #333;
-    font-weight : bold;
-    padding : 0 0 0 15px;
-}
+    font-size : 12px;
+    color : #000;
 
-.tableContents {
+    padding : 30px 0 30px 15px;
+    margin : 0px 40px 0;
 
-    width : 1000px;
-    text-align: left;
-
-    background-color : #f7f7f7;
-    border : 1px solid;
-    border-color : #d1d1d1;
-    
-    font-size : 16px;
-    color : #333;
-    font-weight : bold;
-    padding : 0 0 0 15px;
 }
 
 .footerLine {
     border-top : 1px solid;
     border-color : #d1d1d1;
+    margin : 40px 0 0 0;
+}
+
+.footerAddr{
+    font-size : 12px;
+    color : #999;
+}
+
+.footerRight{
+    font-size : 12px;
+    color : #000;
 }
