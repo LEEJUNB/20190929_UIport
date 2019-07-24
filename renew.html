@@ -8,33 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="wrap"> <!--배경에 블랙컬러지정 및 컬러높이지정-->
-        <div class="wrapInner"> <!--중앙정렬되고 1080너비유지-->>
-            <!--헤더포함해서 div에 넣어서 기존간격 오른쪽 간격 40맞추기-->
-            <header class="headerText"> 포트폴리오 </header><!--배경컬러는 투명으로-->
+    <header class="header"> <p class="headerText"> 포트폴리오 </p> </header>
+    <div class="wrap"> 
+        <div class="wrapInner">
             <nav class="wrapElement">
-                <!-- <p class="tableElement" id="mouseHover"><a href="">테이블 요소</a></p>
-                <p class="formElement" id="mouseHover"><a href="">폼 요소</a></p>
-                <p class="listElement" id="mouseHover"><a href="">리스트 요소</a></p> -->
-                <input class="tableElement" id="mouseHover" type="button" value="테이블 요소" href="">
-                <input class="formElement" id="mouseHover" type="button" value="폼 요소" href="">
-                <input class="listElement" id="mouseHover" type="button" value="리스트 요소" href="">
+                <input class="tableElement" type="button" value="테이블 요소" href=".elementTableA">
+                <input class="formElement"  type="button" value="폼 요소" href=".elementTableB">
+                <input class="listElement"  type="button" value="리스트 요소" href=".elementTableC">
             </nav>
 
-            <p class="element"> 구성 요소 </p>
-            
-            <div class="elementTable">
-                <p class="elementTitle"> 테이블 요소 </p>
-                <p class="elementContents"> 컨텐츠 영역 </p>
+            <div class="elementWrap">
+                <p class="element"> 구성 요소 </p>
+                <div class="elementTableA">
+                    <p class="elementTitle"> 테이블 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
+                </div>
 
-                <p class="elementTitle"> 폼 요소 </p>
-                <p class="elementContents"> 컨텐츠 영역 </p>
+                <div class="elementTableB">
+                    <p class="elementTitle"> 폼 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
+                </div>
 
-                <p class="elementTitle"> 리스트 요소 </p>
-                <p class="elementContents"> 컨텐츠 영역 </p>
+                <div class="elementTableC">
+                    <p class="elementTitle"> 리스트 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
+                </div>
             </div>
-
-
         </div>
         <footer class="footerLine">
             <p class="footerAddr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
