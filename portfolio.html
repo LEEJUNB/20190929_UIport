@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <title>Portfolio</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-    </head>
-    <body>
-        <div class="wrap">
-            <div class="wrapInner">
-                <header class = "headerTitle">
-                    포트폴리오
-                </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="css/renew.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header"> <p class="headerText"> 포트폴리오 </p> </header>
+    <div class="wrap"> 
+        <div class="wrapInner">
+            <nav class="wrapElement">
+                <input class="tableElement" type="button" value="테이블 요소" href=".elementTableA">
+                <input class="formElement"  type="button" value="폼 요소" href=".elementTableB">
+                <input class="listElement"  type="button" value="리스트 요소" href=".elementTableC">
+            </nav>
 
-                <div class="wrapContents">
-                    <span class="wrapInnerSpan">
-                        <input class = "navButton" type="button" value="테이블 요소" href=".tableA">
-                        <input class = "navButton" type="button" value="폼 요소" href=".tableB">
-                        <input class = "navButton" type="button" value="리스트 요소" href=".tableC">
-                    </span>
-
-                    
-                    <p class="composition"> 구성 요소 </p>
-                    
-                    <section class="tableA">
-                        <p class="titleName"> 테이블 요소</p>
-                        <p class="contentsName"> 콘텐츠 영역 </p>
-                    </section>
-
-                    <section class="tableB">
-                        <p class="titleName"> 폼 요소</p>
-                        <p class="contentsName"> 콘텐츠 영역 </p>
-                    </section>
-
-                    <section class="tableC">
-                        <p class="titleName"> 리스트 요소</p>
-                        <p class="contentsName"> 콘텐츠 영역 </p>
-                    </section>
+            <div class="elementWrap">
+                <p class="element"> 구성 요소 </p>
+                <div class="elementTableA">
+                    <p class="elementTitle"> 테이블 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
                 </div>
 
-                <footer class="footerWrap">
-                    <p class="footerInfOne"> 주소 : 경기도 성남시 분당구, E-MAIL:honggildong@naver.com</p>
-                    <p class="footerInfTwo"> Copyright Hong Gil Dong. All Rights Reserved </p>
-                </footer>
+                <div class="elementTableB">
+                    <p class="elementTitle"> 폼 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
+                </div>
+
+                <div class="elementTableC">
+                    <p class="elementTitle"> 리스트 요소 </p>
+                    <p class="elementContents"> 컨텐츠 영역 </p>
+                </div>
             </div>
         </div>
-    </body>
+        <footer class="footerLine">
+            <p class="footerAddr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
+            <p class="footerRight">Copyright © Hong Gil Dong. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
 </html>
