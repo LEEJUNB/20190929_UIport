@@ -2,48 +2,64 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-    <title>Document</title>
 </head>
 <body>
-    <header class="header"> <p class="headerText"> 포트폴리오 </p> </header>
-    <div class="wrap"> 
-        <div class="wrapInner">
-            <nav class="wrapElement">
-                <input class="tableElement" type="button" value="테이블 요소" onclick = "location.href='#elementIdA'">
-                <input class="formElement"  type="button" value="폼 요소" onclick = "location.href='#elementIdB'">
-                <input class="listElement"  type="button" value="리스트 요소" onclick = "location.href='#elementIdC'">
-            </nav>
+    <header class="header public_font"> <p class="header_text"> 포트폴리오 </p> </header>
+    <div class="wrap public_font"> 
+        <div class="wrap_inner">
+            <span class = "wrap_inner_1000">
+                <p class="title">테이블 요소</p>
+                <p class="blank"></p>
+                <p class="title">폼 요소</p>
+                <p class="blank"></p>
+                <p class="title">리스트 요소</p>
+            </span>
 
-            <div class="elementWrap">
-                <p class="element"> 구성 요소 </p>
-                <div class="elementTableA">
-                    <a id="elementIdA">
-                        <p class="elementTitle"> 테이블 요소 </p>
-                        <p class="elementContents"> 컨텐츠 영역 </p>
-                    </a>
-                </div>
+            <div class="element_wrap">
+                <after>
+                    <p class="element"> 구성 요소 </p>
+                </after>
 
-                <div class="elementTableB" >
-                    <a id="elementIdB">
-                        <p class="elementTitle"> 폼 요소 </p>
-                        <p class="elementContents"> 컨텐츠 영역 </p>
-                    </a>
-                </div>
+                <before>
+                    <table class="b" id="table_element">
+                        <tr>
+                            <td class="table_title">테이블 요소</td>
+                        </tr>
+                        <tr>
+                            <td class="table_content">콘텐츠 영역</td>
+                        </tr>
+                    </table>
+                </before>
 
-                <div class="elementTableC">
-                    <a id="elementIdC">
-                        <p class="elementTitle"> 리스트 요소 </p>
-                        <p class="elementContents"> 컨텐츠 영역 </p>
-                    </a>
-                </div>
+                <before>
+                    <table class="b" id="form_element">
+                        <tr>
+                            <td class="table_title">폼 요소</td>
+                        </tr>
+                        <tr>
+                            <td class="table_content">콘텐츠 영역</td>
+                        </tr>
+                    </table>
+                </before>  
+                
+                <before>
+                    <table class="b" id="list_element">
+                        <tr>
+                            <td class="table_title">리스트 요소</td>
+                        </tr>
+                        <tr>
+                            <td class="table_content">콘텐츠 영역</td>
+                        </tr>
+                    </table>
+                </before>    
+                
             </div>
         </div>
-        <footer class="footerLine">
-            <p class="footerAddr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
-            <p class="footerRight">Copyright © Hong Gil Dong. All Rights Reserved.</p>
+        <footer class="footer_line">
+            <p class="footer_addr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
+            <p class="footer_right">Copyright © Hong Gil Dong. All Rights Reserved.</p>
         </footer>
     </div>
 </body>
