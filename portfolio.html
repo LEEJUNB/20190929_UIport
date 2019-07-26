@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" type="text/css" href="css/renew.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,26 +12,32 @@
     <div class="wrap"> 
         <div class="wrapInner">
             <nav class="wrapElement">
-                <input class="tableElement" type="button" value="테이블 요소" href=".elementTableA">
-                <input class="formElement"  type="button" value="폼 요소" href=".elementTableB">
-                <input class="listElement"  type="button" value="리스트 요소" href=".elementTableC">
+                <input class="tableElement" type="button" value="테이블 요소" onclick = "location.href='#elementIdA'">
+                <input class="formElement"  type="button" value="폼 요소" onclick = "location.href='#elementIdB'">
+                <input class="listElement"  type="button" value="리스트 요소" onclick = "location.href='#elementIdC'">
             </nav>
 
             <div class="elementWrap">
                 <p class="element"> 구성 요소 </p>
                 <div class="elementTableA">
-                    <p class="elementTitle"> 테이블 요소 </p>
-                    <p class="elementContents"> 컨텐츠 영역 </p>
+                    <a id="elementIdA">
+                        <p class="elementTitle"> 테이블 요소 </p>
+                        <p class="elementContents"> 컨텐츠 영역 </p>
+                    </a>
                 </div>
 
-                <div class="elementTableB">
-                    <p class="elementTitle"> 폼 요소 </p>
-                    <p class="elementContents"> 컨텐츠 영역 </p>
+                <div class="elementTableB" >
+                    <a id="elementIdB">
+                        <p class="elementTitle"> 폼 요소 </p>
+                        <p class="elementContents"> 컨텐츠 영역 </p>
+                    </a>
                 </div>
 
                 <div class="elementTableC">
-                    <p class="elementTitle"> 리스트 요소 </p>
-                    <p class="elementContents"> 컨텐츠 영역 </p>
+                    <a id="elementIdC">
+                        <p class="elementTitle"> 리스트 요소 </p>
+                        <p class="elementContents"> 컨텐츠 영역 </p>
+                    </a>
                 </div>
             </div>
         </div>
