@@ -5,12 +5,13 @@
 }
 
 .public_font{
-    font-family: '나눔 고딕', 'NanumGothic', '돋움', 'Dotum', 'sans-serif';
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 }
 
 .wrap_inner {
-    width : 1080px;
+    width : 1000px;
     display : inline-block;
+    margin : 40px;
 }
 
 .header {
@@ -18,35 +19,33 @@
     width : 100%;
     background-color: #000;
     height : 120px;
-    text-align: center;
 }
 
 .header_text {
-    width : 1080px;
+    width : 1000px;
+    height : 40px;
     display : inline-block;  
     background-color: transparent;
     text-align: left;
     color : #fff;
     font-weight: bold;
     font-size : 40px;
-    padding : 40px 0;
-    margin : 0 0 0 40px;
+    margin : 40px;
 }
 
-/**/
-
 .wrap_inner_1000{
-    width : 1000px;
+    margin : 0 0 0 0;
 }
 
 .title {
+    position : relative;
     font-size : 16px;
+    padding : 8.5px 0; /*컨텐츠 높이 33*/
     color : #000;
     border : 1px solid #d1d1d1;
     display: inline-block;
-    height : 33px;
-    width : 20%;
-    
+    width : 31.4%;
+    margin : 0;
 }
 
 .title:hover {
@@ -61,11 +60,7 @@
     visibility: hidden;
 }
 
-
-/**/
-
 .element_wrap{
-    
     margin : 0 40px 0 40px;
 }
 
@@ -95,11 +90,11 @@ table {
     border: 1px solid 
   }
 
-  .b {
+  .table_element {
     border-collapse: collapse;
   }
 
-.b:before {
+.table_element:before {
     content: "";
     display: block;
 
