@@ -22,29 +22,24 @@
 }
 
 .header_text {
-    width : 1000px;
+    font-size : 40px;
+    color : #fff;
+    font-weight: bold;
     height : 40px;
+    width : 1000px;
     display : inline-block;  
     background-color: transparent;
     text-align: left;
-    color : #fff;
-    font-weight: bold;
-    font-size : 40px;
     margin : 40px;
 }
 
-.wrap_inner_1000{
-    margin : 0 0 0 0;
-}
-
 .title {
-    position : relative;
     font-size : 16px;
-    padding : 8.5px 0; /*컨텐츠 높이 33*/
     color : #000;
     border : 1px solid #d1d1d1;
     display: inline-block;
     width : 31.4%;
+    padding : 8.5px 0; /*컨텐츠 높이 33*/
     margin : 0;
 }
 
@@ -53,81 +48,62 @@
     font-weight: bold;
 }
 
-.blank {
+.space {
     display : inline-block;
-    width : 14px;
-    height : 33px;
     visibility: hidden;
+    width : 14px;
+    margin : 0;
 }
 
-.element_wrap{
-    margin : 0 40px 0 40px;
-}
-
-.element {
+.formation_name {
     font-size: 20px;
     color : #000;
     font-weight: bold;
     text-align: left;
-    margin : 0;
+    margin : 40px 0 0;
 }
 
-.element:after {
+.formation_name:after {
+    border-bottom: 1px solid #454545;
     content: "";
     display: block;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom : 0;
-    border-bottom: 1px solid #dadada;
+    margin-top: 15px;
 }
 
 table {
     width: 100%;
-    border: 1px solid transparent
+    border: 1px solid transparent;
   }
-  td {
-    padding: 10px;
-    border: 1px solid 
-  }
-
-  .table_element {
+  .table_collapse {
     border-collapse: collapse;
   }
 
-.table_element:before {
+.table_collapse:before {
     content: "";
     display: block;
-
     margin-top : 30px;
     border-color: transparent;
     visibility: hidden;
 }
 
 .table_title {
-    text-align: left ; 
-
-    background-color : #f7f7f7;
-    border : 1px solid;
-    border-color : #d1d1d1;
-
     font-size : 16px;
     color : #333;
     font-weight : bold;
-
-    padding : 20px 0 20px 15px;
-    margin : 30px 0 0 0;
+    background-color : #f7f7f7;
+    border : 1px solid #d1d1d1;
+    text-align: left;
+    padding : 15px 0 15px 15px;
+    margin : 30px 0 0;
 }
 
 .table_content{
-    text-align: left;
-
-    background-color : #f7f7f7;
-    border : 1px solid;
-    border-color : #d1d1d1;
-    
     font-size : 12px;
     color : #000;
-
+    border : 1px solid;
+    border-color : #d1d1d1;
+    text-align: left;
     padding : 30px 30px;
     margin : -10px 0 0 0;
 }
@@ -135,7 +111,6 @@ table {
 .footer_line {
     border-top : 1px solid;
     border-color : #d1d1d1;
-    margin : 40px 0 0 0;
 }
 
 .footer_addr{

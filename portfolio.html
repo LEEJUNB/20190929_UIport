@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
 </head>
 <body>
     <header class="header public_font"> <p class="header_text"> 포트폴리오 </p> </header>
     <div class="wrap public_font"> 
         <div class="wrap_inner">
-            <span class = "wrap_inner_1000">
+            <div>
                 <p class="title" onClick="location.href='#table_id'"> 테이블 요소</p>
-                <p class="blank" ></p>
+                <p class="space" ></p>
                 <p class="title" onClick="location.href='#form_id'">폼 요소</p>
-                <p class="blank"></p>
+                <p class="space"></p>
                 <p class="title" onClick="location.href='#list_id'">리스트 요소</p>
-            </span>
+            </div>
 
-            <span class="element_wrap">
-                
-                <p class="element"> 구성 요소 </p>
-
-                <table class="table_element" id="table_id">
+            <div class="element_wrap">                
+                <p class="formation_name"> 구성 요소 </p>
+                <table class="table_collapse" id="table_id">
                     <tr>
                         <td class="table_title">테이블 요소</td>
                     </tr>
@@ -30,7 +28,7 @@
                     </tr>
                 </table>
 
-                <table class="table_element" id="form_id">
+                <table class="table_collapse" id="form_id">
                     <tr>
                         <td class="table_title">폼 요소</td>
                     </tr>
@@ -39,7 +37,7 @@
                     </tr>
                 </table>
             
-                <table class="table_element" id="list_id">
+                <table class="table_collapse" id="list_id">
                     <tr>
                         <td class="table_title">리스트 요소</td>
                     </tr>
@@ -47,7 +45,7 @@
                         <td class="table_content">콘텐츠 영역</td>
                     </tr>
                 </table>
-            </span>
+            </div>
         </div>
         <footer class="footer_line">
             <p class="footer_addr">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</p>
